@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>そーなんだ化学＋α ｜ 市況ダッシュボードの見方</title>
+<style>
+:root{--primary:#00b0f0;--primary-dark:#0090d0;--text:#1a2a3a;--text-light:#5a6a7a;--bg:#f8f9fb}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:var(--bg);color:var(--text);line-height:1.9}
+header{background:linear-gradient(135deg,#0090d0 0%,#00b0f0 50%,#40c8ff 100%);color:#fff;padding:10px 32px;display:flex;align-items:center;justify-content:space-between}
+header h1{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-weight:900;font-size:1.4rem;text-shadow:2px 2px 0 rgba(0,0,0,.4)}
+header a{color:rgba(255,255,255,.85);text-decoration:none;font-size:.85rem;padding:6px 14px;border:1px solid rgba(255,255,255,.3);border-radius:8px}
+header a:hover{background:rgba(255,255,255,.15)}
+article{max-width:800px;margin:0 auto;padding:40px 24px 60px}
+.lead{font-size:1.05rem;color:var(--primary-dark);font-weight:600;margin-bottom:32px;line-height:2;border-left:4px solid var(--primary);padding-left:16px}
+h2{font-size:1.15rem;color:var(--primary-dark);margin:36px 0 12px;padding-bottom:8px;border-bottom:2px solid #e0e8f0}
+h2 .emoji{margin-right:8px}
+p{margin-bottom:16px;font-size:.92rem;line-height:2}
+.highlight{background:linear-gradient(transparent 60%,rgba(0,176,240,.12) 60%)}
+.note{background:#f0f7fc;border-radius:10px;padding:16px 20px;margin:16px 0 24px;font-size:.88rem;color:var(--text-light);border-left:3px solid var(--primary)}
+footer{text-align:center;padding:32px;color:var(--text-light);font-size:.8rem;border-top:1px solid #e0e8f0;margin-top:40px}
+@media print{header{padding:8px 20px}article{padding:20px 16px}h2{margin:24px 0 8px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>そーなんだ化学＋α</h1>
+  <a href="summary.html">ダッシュボードに戻る</a>
+</header>
+
+<article>
+  <h1 style="font-size:1.6rem;color:var(--text);margin-bottom:8px;font-weight:800">市況ダッシュボードの見方</h1>
+  <p style="color:var(--text-light);font-size:.85rem;margin-bottom:32px">化学・素材産業の市況をもっと身近に、もっと面白く</p>
+
+  <div class="lead">
+    本ダッシュボードは、化学・素材産業の経済動向を読み解くための市況情報を月次で整理したものです。原料の上流から製品の下流まで、サプライチェーン全体を俯瞰できる構成にしています。
+  </div>
+
+  <h2><span class="emoji">📊</span>マクロ指標（重点領域）</h2>
+  <p>
+    日本は元来、資源を輸入して加工し、付加価値をつけて輸出する<span class="highlight">「加工貿易」の国</span>です。そのため、原油・天然ガス・石炭といった資源価格の上下は、製造コストの上下に直結します。
+  </p>
+  <p>
+    目安として、<span class="highlight">資源価格の変動はおよそ3〜6ヶ月後に化学産業の製品価格や収益にヒットしてきます</span>。為替（USD/JPY）も輸入コストを左右する重要な変数であり、円安局面では資源高と同等のインパクトを持ちます。
+  </p>
+  <div class="note">3Mボタンで直近3ヶ月、1Yボタンで1年間の推移を切り替えて確認できます。</div>
+
+  <h2><span class="emoji">📈</span>マクロ指標（補完領域）</h2>
+  <p>
+    パーム油・リン鉱石・尿素・アルミニウム・ニッケルといった品目は、化学産業全体から見れば一部のサプライチェーンに属する指標です。読者の皆様の事業領域によっては必要ないと感じられるかもしれませんが、<span class="highlight">化学全般にアンテナを張りたい方は目を通すだけでも視野が広がります</span>。
+  </p>
+  <p>
+    たとえばパーム油は界面活性剤の原料であり、ニッケルは電池材料の要です。一見遠い品目でも、意外なところで自社のバリューチェーンとつながっています。
+  </p>
+
+  <h2><span class="emoji">🚢</span>物流指標</h2>
+  <p>
+    貿易立国の日本において、素材産業も物流コストの影響を強く受けます。特に化学・素材産業は<span class="highlight">液体・ガス・固体・危険物・普通品と荷姿が多岐にわたり</span>、コンテナ運賃の上下は産業動向に大きく影響します。
+  </p>
+  <p>
+    輸出（横浜発）は日本の化学品がどれだけのコストで世界に届くかを示し、輸入（横浜着）は原料・中間体の調達コストを映します。コロナ禍以降、物流費の変動幅は従来の数倍に拡大しており、もはや<span class="highlight">「運賃は一定」という前提は通用しません</span>。
+  </p>
+
+  <h2><span class="emoji">⛽</span>ナフサ価格推移</h2>
+  <p>
+    ナフサは石油化学製品の値決めの前提となる<span class="highlight">最重要指標</span>です。国内では「3ヶ月前のナフサ価格」を基準に四半期の製品単価を設定する業種が多く、いわゆる<span class="highlight">「ナフサリンク」</span>と呼ばれる価格連動の仕組みが広く定着しています。
+  </p>
+  <p>
+    つまり、ナフサの値動きを追えば、ある程度は素材産業の"値段の方向感"を外からでも読み取ることができます。速報値と確報値の2系列を掲載していますが、速報値は速報性を、確報値は正確性を重視した数値です。
+  </p>
+  <div class="note">ナフサリンクとは：国産ナフサ価格を基準に、四半期ごとに石化製品の取引価格を見直す商慣行のこと。原料コストの変動を製品価格に転嫁する仕組みとして、日本の化学業界で広く採用されています。</div>
+
+  <h2><span class="emoji">🏭</span>エチレン動向</h2>
+  <p>
+    エチレンは石油化学品の中で最も汎用的な基礎原料であり、ポリエチレン・塩ビ・スチレンなど多くの誘導品の出発点となることから、<span class="highlight">「化学産業の米」</span>とも呼ばれています。その汎用性ゆえに、エチレンの需給動向は化学産業のみならず経済全体の景況感を測る指標の一つとも言われております。
+  </p>
+  <p>
+    エチレンプラントの稼働率は、国内化学産業の景気を映す鏡的な存在です。<span class="highlight">一般に採算が合う健全ラインは90%</span>とされ、これを上回ると需給がタイトで価格上昇圧力が強まり、下回ると供給過剰のサインと見なされます。生産・輸入・内需の推移と合わせて見ることで、国内化学産業の"体温"を測ることができます。
+  </p>
+
+  <h2><span class="emoji">🟥</span>化学品輸入価格ヒートマップ</h2>
+  <p>
+    財務省貿易統計をもとに、主要化学品約70品目の輸入単価の前月比変動を一覧化したものです。<span class="highlight">赤系は値上がり、青系は値下がり</span>を示します。
+  </p>
+  <p>
+    個別品目を追いかけるだけでなく、全体を俯瞰することで「今、化学品市況は全体的に上がっているのか、下がっているのか」という大きな潮流が一目で掴めます。カテゴリフィルター（無機・有機・樹脂・肥料・その他）を使えば、関心のある領域に絞った確認も可能です。
+  </p>
+</article>
+
+<footer>
+  &copy; 2026 そーなんだ化学＋α
+</footer>
+</body>
+</html>
